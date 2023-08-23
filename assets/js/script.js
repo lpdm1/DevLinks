@@ -26,15 +26,15 @@ function toggleTheme(event) {
 	const { target } = event
 
 	if (target.checked) {
-		document.body.classList.remove("dark")
+		document.body.classList.remove("light")
 		return
 	}
 
-	document.body.classList.add("dark")
+	document.body.classList.add("light")
 }
 
-const isSystemThemeDark = () => {
-	if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+const isSystemThemeLight = () => {
+	if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
 		return true
 	}
 
@@ -50,12 +50,12 @@ function handleDefaultTheme() {
 
 	if (!switchTheme) return
 
-	if (isSystemThemeDark()) {
-		document.body.classList.add("dark")
+	if (isSystemThemeLight()) {
+		document.body.classList.add("light")
 		switchTheme.checked = false
 		return
 	}
 
-	document.body.classList.remove("dark")
+	document.body.classList.remove("light")
 	switchTheme.checked = true
 }
