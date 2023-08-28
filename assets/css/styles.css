@@ -2,16 +2,16 @@
 :root {
 	/* colors */
 	--light: #ffffff;
-	--light-op-50: #ffffff80;
-	--light-op-20: #ffffff33;
-	--light-op-10: #ffffff1a;
-	--light-op-5: #ffffff0d;
+	--light-500: #ffffff80;
+	--light-200: #ffffff33;
+	--light-100: #ffffff1a;
+	--light-50: #ffffff0d;
 
 	--dark: #000000;
-	--dark-op-50: #00000080;
-	--dark-op-10: #0000001a;
-	--dark-op-5: #0000000d;
-	--dark-op-2: #00000005;
+	--dark-500: #00000080;
+	--dark-100: #0000001a;
+	--dark-50: #0000000d;
+	--dark-20: #00000005;
 
 	/* imgs */
 
@@ -25,7 +25,6 @@
 	--fs-300: 1rem;
 	--fs-200: 0.875rem;
 	--size-1: 1rem;
-
 }
 
 html {
@@ -37,15 +36,15 @@ html {
 	--bg-scrollbar-track: var(--light);
 	--bg-scrollbar-thumb: #d4a0e8;
 	--profile-photo: url("./../img/avatar.jpg");
-	--border-color-switch-track: var(--dark-op-50);
-	--bg-color-switch-track: var(--dark-op-5);
+	--border-color-switch-track: var(--dark-500);
+	--bg-color-switch-track: var(--dark-50);
 	--bg-color-switch-toggle: var(--light);
-	--box-shadow-switch-toggle-hover: var(--dark-op-10);
-	--border-color-btn-link: var(--dark-op-50);
-	--bg-color-btn-link: var(--dark-op-5);
+	--box-shadow-switch-toggle-hover: var(--dark-100);
+	--border-color-btn-link: var(--dark-500);
+	--bg-color-btn-link: var(--dark-50);
 	--border-color-btn-link-hover: var(--dark);
-	--bg-color-btn-link-hover: var(--dark-op-2);
-	--bg-color-btn-social-link-hover: var(--dark-op-10);
+	--bg-color-btn-link-hover: var(--dark-20);
+	--bg-color-btn-social-link-hover: var(--dark-100);
 }
 
 html .light {
@@ -56,15 +55,15 @@ html .light {
 	--bg-scrollbar-track: #292f4b;
 	--bg-scrollbar-thumb: #554283;
 	--profile-photo: url("./../img/avatar-light.jpg");
-	--border-color-switch-track: var(--light-op-50);
-	--bg-color-switch-track: var(--light-op-10);
+	--border-color-switch-track: var(--light-500);
+	--bg-color-switch-track: var(--light-100);
 	--bg-color-switch-toggle: var(--light);
-	--box-shadow-switch-toggle-hover: var(--light-op-10);
-	--border-color-btn-link: var(--light-op-50);
-	--bg-color-btn-link: var(--light-op-10);
+	--box-shadow-switch-toggle-hover: var(--light-100);
+	--border-color-btn-link: var(--light-500);
+	--bg-color-btn-link: var(--light-100);
 	--border-color-btn-link-hover: var(--light);
-	--bg-color-btn-link-hover: var(--light-op-5);
-	--bg-color-btn-social-link-hover: var(--light-op-20);
+	--bg-color-btn-link-hover: var(--light-50);
+	--bg-color-btn-social-link-hover: var(--light-200);
 }
 
 body {
